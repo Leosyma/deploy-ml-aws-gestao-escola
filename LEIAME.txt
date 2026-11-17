@@ -8,11 +8,11 @@
 
 # Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
 
-conda create --name dsadeploymlp3 python=3.13
+conda create --name admissao-escolar python=3.13
 
 # Ative o ambiente:
 
-conda activate dsadeploymlp3 (ou: source activate dsadeploymlp3)
+conda activate admissao-escolar (ou: source activate admissao-escolar)
 
 # Instale o pip e as dependências:
 
@@ -30,7 +30,7 @@ gunicorn -w 4 app:app
 # Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
 
 conda deactivate
-conda remove --name dsadeploymlp3 --all
+conda remove --name admissao-escolar --all
 
 
 

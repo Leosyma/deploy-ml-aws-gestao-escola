@@ -16,7 +16,7 @@ def carregar_arquivo(caminho):
         return pickle.load(file)
 
 # Carrega o modelo e o scaler
-modelo = carregar_arquivo('modelo_dsa_final.pkl')
+modelo = carregar_arquivo('modelo_final.pkl')
 scaler = carregar_arquivo('scaler_final.pkl')
 
 # Rota para a página web de entrada

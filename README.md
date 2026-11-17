@@ -36,7 +36,7 @@ The application allows users to:
 .
 ├── app.py                  # Main Flask application
 ├── index.html              # HTML page with the input form
-├── modelo_dsa_final.pkl    # Trained Machine Learning model
+├── modelo_final.pkl    # Trained Machine Learning model
 ├── scaler_final.pkl        # Scaler used for preprocessing
 ├── requirements.txt        # Project dependencies
 ├── LEIAME.txt              # Local and AWS deployment instructions
@@ -75,13 +75,13 @@ The expected value ranges are:
 Create a Conda virtual environment:
 
 ```bash
-conda create --name dsadeploymlp3 python=3.13
+conda create --name admissao-escolar python=3.13
 ```
 
 Activate the environment:
 
 ```bash
-conda activate dsadeploymlp3
+conda activate admissao-escolar
 ```
 
 Install `pip` and the project dependencies:
@@ -141,7 +141,7 @@ The student cannot be admitted to the course
 
 ## Notes
 
-* The trained model must be available as `modelo_dsa_final.pkl`.
+* The trained model must be available as `modelo_final.pkl`.
 * The scaler must be available as `scaler_final.pkl`.
 * Input values must be within the expected ranges.
 * The application can be executed locally or deployed on AWS using Gunicorn.
